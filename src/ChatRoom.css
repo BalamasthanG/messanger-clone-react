@@ -1,0 +1,29 @@
+.chatroom {
+  position: flex;
+  flex-direction: row;
+}
+.chat {
+  position: fixed;
+  bottom: 0px;
+  padding: 20px;
+  z-index: 1;
+  background-color: whitesmoke;
+  width: 90%;
+  display: flex;
+  margin: 20px;
+  box-shadow: 2px 4px 8px 0 rgba(19, 18, 18, 0.925);
+}
+
+.chat__input {
+  display: flex !important;
+  flex: 1;
+}
+
+.chat__button {
+  display: flex !important;
+  flex: 0;
+}
+
+.messages {
+  padding-bottom: 105px;
+}
