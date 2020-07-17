@@ -19,6 +19,6 @@ https://messanger-app-bmg.firebaseapp.com/
 
 -> to start the project in local (http://localhost:3000).
 
-### npm build
+### npm run build
 
 -> building the project.
