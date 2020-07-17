@@ -70,7 +70,7 @@ function ChatRoom() {
         />
         <IconButton
           disabled={!input}
-          className="chat__button"
+          className={`chat__button ${input && "enable__chat"}`}
           type="submit"
           onClick={sendMessage}
         >

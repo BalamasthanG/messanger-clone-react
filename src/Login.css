@@ -23,6 +23,7 @@
 
 .signup_btn {
   margin-top: 20px !important;
+  width: 100%;
 }
 
 .login__pass {
@@ -35,5 +36,7 @@
 }
 
 .login_btn {
+  color: white !important;
   margin-top: 20px !important;
+  background-color: #4267b2 !important;
 }

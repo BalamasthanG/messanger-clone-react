@@ -24,6 +24,11 @@
   flex: 0;
 }
 
+.enable__chat {
+  color: white !important;
+  background-color: #4267b2 !important;
+}
+
 .messages {
   padding-bottom: 105px;
 }

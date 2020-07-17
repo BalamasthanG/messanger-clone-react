@@ -14,5 +14,6 @@
 }
 
 .message_user {
-  background-color: whitesmoke !important;
+  color: white !important;
+  background-color: #4267b2 !important;
 }

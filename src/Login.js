@@ -77,7 +77,7 @@ function Login() {
               Sign In
             </Button>
           </form>
-          <Button onClick={register} className="signup_btn">
+          <Button variant="outlined" onClick={register} className="signup_btn">
             Register
           </Button>
         </CardContent>
