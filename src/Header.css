@@ -18,6 +18,10 @@
   display: flex;
 }
 
+.user_text {
+  padding: 20px;
+}
+
 .user_icon {
   object-fit: contain;
   height: 50px;

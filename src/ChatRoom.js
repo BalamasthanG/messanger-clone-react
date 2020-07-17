@@ -7,11 +7,14 @@ import { db } from "./firebase";
 import SendIcon from "@material-ui/icons/Send";
 import firebase from "firebase";
 import FlipMove from "react-flip-move";
+import { useStateValue } from "./StateProvider";
+import { useHistory } from "react-router-dom";
 
 function ChatRoom() {
+  const history = useHistory();
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState([]);
-  const [user, setUser] = useState("");
+  const [{ user }] = useStateValue();
 
   const messagesEndRef = useRef(null);
 
@@ -22,8 +25,10 @@ function ChatRoom() {
   useEffect(scrollToBottom, [messages]);
 
   useEffect(() => {
-    setUser(prompt("Enter User Name"));
-  }, []);
+    if (user === null) {
+      history.push("/login");
+    }
+  }, [user]);
 
   useEffect(() => {
     db.collection("messages")

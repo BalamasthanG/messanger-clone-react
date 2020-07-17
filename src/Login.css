@@ -1,0 +1,39 @@
+.login__icon {
+  height: 100px;
+  width: 100px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.login_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px !important;
+}
+
+.login__email {
+  margin-top: 20px !important;
+}
+
+.signup_btn {
+  margin-top: 20px !important;
+}
+
+.login__pass {
+  margin-top: 20px !important;
+}
+
+.login_content > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login_btn {
+  margin-top: 20px !important;
+}
