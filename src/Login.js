@@ -80,6 +80,9 @@ function Login() {
           <Button variant="outlined" onClick={register} className="signup_btn">
             Register
           </Button>
+          <p className="intro">
+            Enter Email, Password and click Register for the first time.
+          </p>
         </CardContent>
       </Card>
     </div>

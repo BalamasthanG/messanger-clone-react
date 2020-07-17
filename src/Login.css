@@ -14,7 +14,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px !important;
+  padding: 20px !important;
+}
+
+.intro {
+  width: 50%;
+  font-size: 13px;
+  padding: 20px;
+  font-weight: 500;
 }
 
 .login__email {
@@ -23,7 +30,7 @@
 
 .signup_btn {
   margin-top: 20px !important;
-  width: 100%;
+  width: 70%;
 }
 
 .login__pass {
@@ -33,6 +40,7 @@
 .login_content > form {
   display: flex;
   flex-direction: column;
+  width: 70%;
 }
 
 .login_btn {
