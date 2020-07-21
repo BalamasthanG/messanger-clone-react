@@ -20,7 +20,7 @@ function Header() {
       <Link className="link" to="/login">
         <img
           className="header__icon"
-          src="https://lh3.googleusercontent.com/proxy/gAV7mZyGbboTem_h_E2Gq4WqloBqYU-2D1pWW8P_xh33lg8b_nrHmPrNr20WhV7ou1AqUmJ43GXQ2Vjx8KOmpnDx_O1z8VywNHLhyv3_s8u4K6ZgEHA"
+          src="https://facebookbrand.com/wp-content/uploads/2018/09/Header-e1538151782912.png?w=100&h=100"
           alt="icon"
         />
       </Link>
